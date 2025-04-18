@@ -61,7 +61,7 @@ fn main() {
             .start(
                 canvas,
                 web_options,
-                Box::new(|cc| Ok(Box::new(eframe_webworker::TemplateApp::new(cc)))),
+                Box::new(|cc| Ok(Box::new(libp2p_global_chat_v3::TemplateApp::new(cc)))),
             )
             .await;
 
@@ -150,8 +150,8 @@ fn main() -> eframe::Result {
         ..Default::default()
     };
     eframe::run_native(
-        "eframe_webworker",
+        "libp2p_global_chat_v3",
         native_options,
-        Box::new(|cc| Ok(Box::new(eframe_webworker::TemplateApp::new(cc)))),
+        Box::new(|cc| Ok(Box::new(libp2p_global_chat_v3::TemplateApp::new(cc)))),
     )
 }

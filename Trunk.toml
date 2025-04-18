@@ -2,6 +2,6 @@
 filehash = false
 target = "index.html"
 dist = "dist"
-# public_url = "/eframe_webworker/" # DOES NOT WORK
+# public_url = "/libp2p_global_chat_v3/" # DOES NOT WORK
 # public_url = "/" # DOES NOT WORK
 # public_url = "./" # DOES NOT WORK
