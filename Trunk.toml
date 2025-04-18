@@ -1,0 +1,7 @@
+[build]
+filehash = false
+target = "index.html"
+dist = "dist"
+# public_url = "/eframe_webworker/" # DOES NOT WORK
+# public_url = "/" # DOES NOT WORK
+# public_url = "./" # DOES NOT WORK
